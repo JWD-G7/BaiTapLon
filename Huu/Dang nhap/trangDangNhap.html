@@ -1,0 +1,138 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+  <div class="container ">
+  <div id="bg" ><img width="100%" height="100%" src="anhnen.jpg" /></div>   
+      <div class="row">
+      <div class="col-md-12">
+        <div class="customDiv thumbnail img-responsive" ></div>
+      </div>
+      </div>
+      <!-- <div id="header" align="center" ><h1 style="color: cyan"><strong>TRANG ĐĂNG NHẬP</strong></h1></div> -->
+      <div class="table-responsive" align="center">
+      
+      
+        <div class="col-md-4 col-md-offset-4">
+          <div class="btn-group" id="btngroup"> 
+          <button type="button" class="btn btn-info">Người truy cập</button>
+          <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+            <span class="caret"></span> 
+            <span class="sr-only">Toggle Dropdown</span>   
+          </button>
+             <!-- <span class="sr-only">Toggle Dropdown</span>   -->           
+             <ul class="dropdown-menu">   
+              <li><a href="#">Giảng viên</a></li>    
+              <li><a href="#">Trưởng khoa</a></li>    
+              <li><a href="#">Trưởng bộ môn</a></li>    
+              <li><a href="#">Ban Giám Hiệu</a></li>    
+              <li><a href="#">Admin</a></li>    
+              <li><a href="#">Phòng TCCB</a></li>    
+            </ul> 
+          </div>
+          </div>
+          <br>
+
+          <br>
+          <br>
+          <br>
+          <table>
+          <tr>
+          <td>
+          <div class="well" id="cc">
+          <form >
+            <div class="form-group " >
+              <label for="InputUserName"><span class="glyphicon glyphicon-user"> </span> Tên Tài Khoản</label>
+              <input type="Text" class="form-control" id="InputUserName" placeholder="Enter UserName">
+            </div>
+            <div class="form-group">
+              <label for="InputPassword"><span class="glyphicon glyphicon-lock"></span> Mật khẩu</label>
+              <input type="password" class="form-control" id="InputPassword" placeholder="Password">
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox">Nhớ tên tài khoản</label>
+
+            </div>
+            <button type="submit" class="btn btn-info center-block"><a href="trangchugiangvien.html">Đăng Nhập</a></button>
+            <p align="center">Bạn không có tài khoản? <a href="#loginModal" data-target="#loginModal" data-toggle="modal">Đăng ký ngay?</a></p>
+          </form>
+          </div>
+          </td>
+          </tr>
+          </table>
+          
+          
+            <br/>
+            <div class="container">
+
+            <div class="row">
+            <div class="col-xs-12">
+            <div class="modal" id="loginModal" tabindex="-1">
+            <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+             <button class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Đăng ký</h4>        
+            </div>
+            <div class="modal-boby">
+            <div class="well wel-lg" id="ccc">
+            <form >
+            <div class="form-group" >
+              <label for="InputPassword" >Họ và tên</label>
+              <input type="text" id="InputPassword" class="form-control" placeholder="Nhập mật khẩu" >
+            </div>
+            <div class="form-group">
+              <label for="InputUserName">Tên tài khoản</label>
+              <input type="text" class="form-control" placeholder="Nhập tên tài khoản" id="InputUserName">
+            </div>
+            <div class="form-group">
+              <label for="InputPassword">Mật khẩu</label>
+              <input type="text" id="InputPassword" class="form-control" placeholder="Nhập mật khẩu">
+            </div>
+            <div class="form-group">
+              <label for="InputPassword">Nhập lại mật khẩu</label>
+              <input type="text" id="InputPassword" class="form-control" placeholder="Nhập mật khẩu">
+            </div>
+            </form>     
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-primary">Đăng Ký</button>
+              <button class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+            </div>
+        
+      </div>
+    </div>
+    <h5 align="right"><strong>Powered and Designed by <u>Nhóm 7</u></strong></h5>
+  </div>
+    
+  </div>
+  </div>
+
+
+          
+       
+      
+      </div>
+      </div>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+  </html>

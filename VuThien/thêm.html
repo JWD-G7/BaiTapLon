@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+    <div class="row">
+      <div class="col-md-12" align="right">
+        <div class="customDiv thumbnail img-responsive"></div>
+      </div>
+    </div>
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <table class="table">
+          <caption><h3 align="center">Thêm người dùng mới</h3></caption>
+            <tr>
+              <td><label for="user">Tên tài khoản</label></td>
+              <td><input type="text" class="form " placeholder="Nhập tài khoản"></td>
+            </tr>
+            <tr>
+              <td><label for="password">Mật khẩu</label></td>
+              <td><input type="password" class="form" placeholder="Password"></td>
+            </tr>
+            <tr>
+              <td><label for="chon">Phân quyền</label></td>
+              <td>
+                <select id="chon">
+                  <option value="giangvien">Giảng viên</option>
+                  <option value="truongbomon">Trưởng bộ môn</option>
+                  <option value="truongkhoa">Trưởng khoa</option>
+                  <option value="phongtccb">Phòng TCCB</option>
+                  <option value="hieutruong">Hiệu trưởng</option>
+                  <option value="admin">Admin</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="hoten">Họ tên</label></td>
+              <td><input type="text" class="form " placeholder="Nhập họ tên"></td>
+            </tr>
+            <tr>
+              <td><label for="ngaysinh">Ngày sinh</label></td>
+              <td><input type="date" class="form "></td>
+            </tr>
+            <tr>
+              <td><label for="diachi">Địa chỉ</label></td>
+              <td><input type="text" class="form " placeholder="Nhập địa chỉ"></td>
+            </tr>
+            <tr>
+              <td><label for="email">Email</label></td>
+              <td><input type="email" class="form " placeholder="Nhập địa chỉ email"></td>
+            </tr>
+          </table>
+          <div align="center">
+            <button type="submit" class="btn btn-success">Thêm người dùng</button>
+          <button type="button" class="btn btn-danger" onclick="window.location.href='quản lí người dùng.html'" >Hủy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
